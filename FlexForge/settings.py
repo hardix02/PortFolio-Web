@@ -30,8 +30,8 @@ PROJECT_BASE_IMG_URL = config('PROJECT_BASE_IMG_URL', default=f'{BASE_URL}/stati
 # Host configuration
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='', cast=Csv()) if DEBUG else [
     '.vercel.app',
-    '.ridwaanhall.me',
-    '.ridwaanhall.com',
+    '.hardikbaraiya.me',
+    '.hardikbaraiya.com',
 ]
 
 # ------------------------------------------------------------------------------
@@ -65,13 +65,13 @@ CONTENT_SECURITY_POLICY = {
         'base-uri': [SELF],
         'connect-src': [
             SELF,
-            'ridwaanhall.com',
+            'hardikbaraiya.com',
             '*.googleapis.com',
         ],
         'default-src': [SELF],
         'font-src': [
             SELF,
-            'ridwaanhall.com',
+            'hardikbaraiya.com',
             '*.gstatic.com',
         ],
         'form-action': [SELF],
@@ -97,7 +97,7 @@ CONTENT_SECURITY_POLICY = {
         'script-src': [
             SELF,
             UNSAFE_INLINE,
-            'ridwaanhall.com',
+            'hardikbaraiya.com',
             'static.cloudflareinsights.com',
             '*.googleapis.com',
             'cdn.jsdelivr.net',
@@ -105,7 +105,7 @@ CONTENT_SECURITY_POLICY = {
         'style-src': [
             SELF,
             UNSAFE_INLINE,
-            'ridwaanhall.com',
+            'hardikbaraiya.com',
             '*.googleapis.com',
             '*.gstatic.com',
             'cdn.jsdelivr.net',

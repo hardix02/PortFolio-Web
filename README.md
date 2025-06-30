@@ -1,4 +1,4 @@
-# 🚀 ridwaanhall-com
+# 🚀 hardikbaraiya-com
 
 [![Django](https://img.shields.io/badge/Django-5.2.2-092E20?style=flat&logo=django&logoColor=white)](https://djangoproject.com/)
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)

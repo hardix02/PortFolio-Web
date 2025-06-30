@@ -209,7 +209,7 @@ class SEOData:
         
         return {
             'title': "Privacy Stuff - Keeping it chill and transparent!",
-            'description': "We got you! Check out how we keep your data safe and sound. Transparent privacy policy for ridwaanhall.com users.",
+            'description': "We got you! Check out how we keep your data safe and sound. Transparent privacy policy for hardikbaraiya.com users.",
             'keywords': ', '.join(keywords),
             'og_image': about_data.get('image_url', SEOConfig.DEFAULT_IMAGE),
             'og_type': 'website',
