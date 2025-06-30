@@ -254,7 +254,7 @@ SECRET_KEY="your-django-secret-key"
 DEBUG=False
 
 # Feature Toggles
-GUESTBOOK_PAGE=True
+GUESTBOOK_PAGE=False
 
 # API Keys
 ACCESS_TOKEN="your-github-personal-access-token"
@@ -651,9 +651,9 @@ blog_data = {
     ],
     "image_url": f"{settings.BLOG_BASE_IMG_URL}/your-post.webp",
     "img_name": "your-post.webp",
-    "author": "Ridwan Halim",
-    "username": "ridwaanhall",
-    "author_image": f"{settings.BASE_URL}/static/img/ridwaanhall.webp",
+    "author": "Hardik Baraiya",
+    "username": "hardix02",
+    "author_image": f"{settings.BASE_URL}/static/img/hardix.webp",
     "tags": ["tag1", "tag2"],    "is_featured": True,
     "created_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
@@ -1085,4 +1085,4 @@ This portfolio represents more than just a personal website—it's a **technolog
 
 This project showcases the perfect blend of **technical innovation**, **professional execution**, and **scalable architecture**—representing the pinnacle of modern web development practices.
 
-**Built with ❤️ by [Ridwan Halim](https://ridwaanhall.com) - Pushing the boundaries of web development excellence**
+**Built with ❤️ by [Hardik Baraiya](https://hardikbaraiya.com) - Pushing the boundaries of web development excellence**

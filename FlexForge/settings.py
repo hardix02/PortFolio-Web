@@ -2,7 +2,7 @@
 Django settings for FlexForge project.
 Contains security configurations and environment-specific settings.
 
-Author: Ridwan Halim (ridwaanhall.com)
+Author: Hardik Baraiya (hardikbaraiya.com)
 License: Apache License 2.0
 Created at: March 16, 2025
 """
@@ -23,8 +23,8 @@ SECRET_KEY = config('SECRET_KEY')
 ACCESS_TOKEN = config('ACCESS_TOKEN')
 WAKATIME_API_KEY = config('WAKATIME_API_KEY')
 
-BASE_URL = config('BASE_URL', default='https://ridwaanhall.com')
-BLOG_BASE_IMG_URL = config('BLOG_BASE_IMG_URL', default=f'{BASE_URL}/static/img/blog')
+BASE_URL = config('BASE_URL', default='http://127.0.0.1:8000')
+BLOG_BASE_IMG_URL = config('BLOG_BASE_IMG_URL', default=f'/static/img/blog')
 PROJECT_BASE_IMG_URL = config('PROJECT_BASE_IMG_URL', default=f'{BASE_URL}/static/img/project')
 
 # Host configuration
@@ -82,7 +82,7 @@ CONTENT_SECURITY_POLICY = {
         ],
         'img-src': [
             SELF,
-            'ridwaanhall.com',
+            'localhost:8000',
             'data:',
             BLOG_BASE_IMG_URL,
             PROJECT_BASE_IMG_URL,
@@ -110,7 +110,7 @@ CONTENT_SECURITY_POLICY = {
             '*.gstatic.com',
             'cdn.jsdelivr.net',
         ],
-        'upgrade-insecure-requests': True,  # Enable in production only
+        'upgrade-insecure-requests': False,  # Enable in production only
     },
     # 'REPORT_ONLY': DEBUG,  # Test in development mode
     # 'REPORT_URI': '/csp-report/' if True else None,  # Report violations in production
@@ -157,7 +157,7 @@ APPEND_SLASH = True  # Automatically redirect URLs without trailing slash
 # ------------------------------------------------------------------------------
 
 # Feature toggles
-GUESTBOOK_PAGE = config('GUESTBOOK_PAGE', default=True, cast=bool)
+GUESTBOOK_PAGE = config('GUESTBOOK_PAGE', default=False, cast=bool)
 
 INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
@@ -310,7 +310,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # ------------------------------------------------------------------------------
 
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'Asia/Jakarta'
+TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
 USE_TZ = True
 
@@ -318,7 +318,7 @@ USE_TZ = True
 # STATIC FILES SETTINGS
 # ------------------------------------------------------------------------------
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 

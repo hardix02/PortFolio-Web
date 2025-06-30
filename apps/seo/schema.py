@@ -108,7 +108,7 @@ class SEOSchemaGenerator:
             "jobTitle": job_title,
             "worksFor": works_for,
             "description": about_data.get('short_description', ''),
-            "email": about_data.get('email', 'hi@ridwaanhall.com'),
+            "email": about_data.get('email', 'hardikbaraiy50@gmail.com'),
             "alumniOf": alumni_of,
             "knowsAbout": knows_about,
             "workExperience": work_experience
@@ -316,7 +316,7 @@ class SEOSchemaGenerator:
                 "@type": "ContactPoint",
                 "email": email,
                 "contactType": "customer service",
-                "availableLanguage": ["English", "Indonesian"],
+                "availableLanguage": ["English", "Hindi"],
                 "hoursAvailable": {
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],

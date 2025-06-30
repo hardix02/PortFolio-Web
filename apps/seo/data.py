@@ -38,9 +38,9 @@ class SEOData:
         # Format location properly from dictionary
         location = about_data.get('location', {})
         if isinstance(location, dict):
-            location_str = f"{location.get('regency', '')}, {location.get('country', 'Indonesia')} {location.get('flag', '🇮🇩')}"
+            location_str = f"{location.get('regency', 'Gujarat')}, {location.get('country', 'Indonesia')} {location.get('flag', '🇮🇳')}"
         else:
-            location_str = str(location) if location else 'Indonesia'
+            location_str = str(location) if location else 'India'
         
         return {
             'title': f"About {about_data['name']} - {about_data.get('role', 'Developer')}",

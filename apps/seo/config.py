@@ -11,7 +11,7 @@ class SEOConfig:
     """Centralized SEO configuration and constants."""
     
     # Default values
-    DEFAULT_TITLE_SUFFIX = "ridwaanhall.com"
+    DEFAULT_TITLE_SUFFIX = "hardikbaraiya.com"
     DEFAULT_SEPARATOR = " | "
     DEFAULT_DESCRIPTION_LENGTH = 160
     DEFAULT_KEYWORDS_COUNT = 15
@@ -19,12 +19,12 @@ class SEOConfig:
     # Social media defaults
     DEFAULT_OG_TYPE = "website"
     DEFAULT_TWITTER_CARD = "summary_large_image"
-    DEFAULT_TWITTER_SITE = "@ridwaanhall"
+    DEFAULT_TWITTER_SITE = "@hardix02"
     
     # Site information
-    SITE_NAME = "ridwaanhall.com"
-    AUTHOR = "RidwaanHall"
-    SITE_URL = getattr(settings, 'SITE_URL', 'https://ridwaanhall.com')
+    SITE_NAME = "hardikbaraiya.com"
+    AUTHOR = "HardikBaraiya"
+    SITE_URL = getattr(settings, 'SITE_URL', 'https://hardikbaraiya.com')
     DEFAULT_IMAGE = f"{SITE_URL}/static/img/default-og-image.webp"
     
     # Content type specific settings
@@ -94,22 +94,22 @@ class SEOConfig:
     # Common keywords by category
     COMMON_KEYWORDS = {
         'personal': [
-            'ridwaanhall', 'Ridwan Halim', 'ridwaanhall.com',
-            'ridwaanhall blog', 'ridwaanhall portfolio',
+            'hardix', 'Hardik Baraiya', 'hardikbaraiya.com',
+            'hardix blog', 'hardix portfolio',
             'software developer', 'web developer', 'python developer',
-            'machine learning engineer', 'AI engineer', 'full stack developer'
+            'MQL EA Exper', 'WordPress developer', 'full stack developer'
         ],
         'technical': [
-            'Django', 'Python', 'JavaScript',
-            'Machine Learning', 'AI', 'Data Science', 'Web Development'
+            'C#', 'Python', 'JavaScript',
+            'C++', 'React', 'MQL', 'Web Development'
         ],
         'content': [
             'portfolio', 'blog', 'tutorials', 'coding', 'programming',
             'tech insights', 'development tips', 'project showcase'
         ],
         'location': [
-            'Indonesia', 'Indonesian developer', 'Southeast Asia',
-            'Jakarta developer', 'Indonesian tech', 'Southeast Asian tech'
+            'India', 'Indian developer', 'South Asia',
+            'Gujarat developer', 'Indian tech', 'South Asian tech'
         ]
     }
     
@@ -121,7 +121,7 @@ class SEOConfig:
             "name": AUTHOR,
             "url": SITE_URL,
             "sameAs": [],  # Will be populated dynamically
-            "jobTitle": "Software Developer & AI Engineer",
+            "jobTitle": "Software Developer & Web Developer",
             "worksFor": {
                 "@type": "Organization",
                 "name": "Freelance"

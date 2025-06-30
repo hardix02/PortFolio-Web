@@ -2,7 +2,7 @@
 Context processors for FlexForge project.
 Makes certain settings available in all templates.
 
-Author: Ridwan Halim (ridwaanhall.com)
+Author: Hardik Baraiya (hardikbaraiya.com)
 License: Apache License 2.0
 """
 

@@ -82,7 +82,7 @@ class WakatimeStatsCalculator:
             
             # Calculate time differences
             modified_at = WakatimeStatsCalculator._convert_to_gmt7(last_7_days['modified_at'])
-            now_gmt7 = timezone.now().astimezone(pytz.timezone('Asia/Jakarta'))
+            now_gmt7 = timezone.now().astimezone(pytz.timezone('Asia/Kolkata'))
             time_diff = now_gmt7 - modified_at
             hours_ago = max(0, int(time_diff.total_seconds() / 3600))
             

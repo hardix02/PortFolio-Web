@@ -4,7 +4,7 @@ function updateTime() {
         year: 'numeric', month: 'long', day: 'numeric',
         hour: 'numeric', minute: 'numeric', second: 'numeric',
         hour12: true,
-        timeZone: 'Asia/Jakarta'
+        timeZone: 'Asia/Kolkata'
     };
     const timeElement = document.getElementById('current-time');
     if (timeElement) {

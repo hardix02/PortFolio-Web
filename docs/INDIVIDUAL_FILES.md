@@ -126,9 +126,9 @@ blog_data = {
     "img_name": "start_with_python.webp",
     "created_at": datetime.strptime("2025-03-24T00:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-05-10T13:13:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Halim",
-    "username": "ridwaanhall",
-    "author_image": f"{settings.BASE_URL}/static/img/ridwaanhall.webp",
+    "author": "Hardik Baraiya",
+    "username": "hardix02",
+    "author_image": f"{settings.BASE_URL}/static/img/hardix.webp",
     "content": [
         # Rich HTML content with TailwindCSS styling
         "<p class='mb-4 text-sm md:text-base lg:text-lg'>Python's like the Swiss Army knife of coding...</p>",
@@ -391,9 +391,9 @@ blog_data = {
     "img_name": "django_optimization.webp",
     "created_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
     "updated_at": datetime.strptime("2025-06-09T10:00:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
-    "author": "Ridwan Halim",
-    "username": "ridwaanhall",
-    "author_image": f"{settings.BASE_URL}/static/img/ridwaanhall.webp",
+    "author": "Hardik Baraiya",
+    "username": "hardix02",
+    "author_image": f"{settings.BASE_URL}/static/img/hardix.webp",
     "content": [
         # Your comprehensive blog content here
     ],
@@ -689,4 +689,4 @@ For technical support or questions about the Individual File System Architecture
 - **GitHub Issues**: [Report Issues](https://github.com/ridwaanhall/ridwaanhall-com/issues)
 - **Email Support**: [hi@ridwaanhall.com](mailto:hi@ridwaanhall.com)
 
-**Built with ❤️ by [Ridwan Halim](https://ridwaanhall.com) - Revolutionizing Content Architecture**
+**Built with ❤️ by [Hardik Baraiya](https://hardikbaraiya.com) - Revolutionizing Content Architecture**

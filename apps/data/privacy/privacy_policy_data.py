@@ -2,8 +2,8 @@ from datetime import datetime
 
 class PrivacyPolicyData:
     privacy_policy = {
-        "website": "Ridwan Halim's Awesome Personal Website",
-        "contact_email": "hi@ridwaanhall.com",
+        "website": "Hardik Baraiya's Awesome Personal Website",
+        "contact_email": "hardikbaraiy50@gmail.com",
         "last_updated": datetime.strptime("2025-05-01T00:04:00+07:00", "%Y-%m-%dT%H:%M:%S%z"),
         "data_collected": {
             "Cloudflare": {
